@@ -16,17 +16,17 @@ class DenyApp extends StatelessWidget {
         SplashScreen.routeName: (_) => const SplashScreen(),
         HomeScreen.routeName: (_) => const HomeScreen(),
       },
-      theme: ThemeData(
-          appBarTheme: AppBarTheme(
-              backgroundColor: Colors.transparent,
-              elevation: 0,
-              centerTitle: true,
-              titleTextStyle: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w700,
-                  fontSize: 30)),
-          colorScheme: ColorScheme.fromSeed(
-              seedColor: Colors.blue, primary: Colors.red)),
+      // theme: ThemeData(
+      //     appBarTheme: AppBarTheme(
+      //         backgroundColor: Colors.transparent,
+      //         elevation: 0,
+      //         centerTitle: true,
+      //         titleTextStyle: TextStyle(
+      //             color: Colors.black,
+      //             fontWeight: FontWeight.w700,
+      //             fontSize: 30)),
+      //     colorScheme: ColorScheme.fromSeed(
+      //         seedColor: Colors.blue, primary: Colors.red)),
     );
   }
 }
