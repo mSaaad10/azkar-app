@@ -25,7 +25,8 @@ class DenyApp extends StatelessWidget {
               titleTextStyle: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w700,
-                  fontSize: 30))),
+                  fontSize: 30)),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue)),
     );
   }
 }
