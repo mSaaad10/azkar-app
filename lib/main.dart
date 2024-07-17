@@ -3,11 +3,10 @@ import 'package:deeny_app/ui/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const DenyApp());
+  runApp(DenyApp());
 }
 
 class DenyApp extends StatelessWidget {
-  const DenyApp({super.key});
 
   // This widget is the root of your application.
   @override
@@ -26,7 +25,8 @@ class DenyApp extends StatelessWidget {
                   color: Colors.black,
                   fontWeight: FontWeight.w700,
                   fontSize: 30)),
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue)),
+          colorScheme: ColorScheme.fromSeed(
+              seedColor: Colors.blue, primary: Colors.red)),
     );
   }
 }
